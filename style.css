@@ -1,0 +1,41 @@
+.heading
+{
+    text-align:center;
+    font-family:fantasy;
+    width:100%;
+    font-size:24px;
+    margin:0px;
+}
+.note
+{
+    font-size:14px;
+    color:black;
+
+}
+.copy_right_footer
+{
+    position:fixed;
+bottom:0;
+text-align:center;
+width:100%;
+box-shadow:1px 1px 38px blueviolet;
+background-color:black;
+color:aqua;
+}
+span{
+    color:yellow;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    float:right;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example
+{
+from{box-shadow:1px 1px 38px Red;}
+to{box-shadow:1px 1px 38px Green;}
+}
